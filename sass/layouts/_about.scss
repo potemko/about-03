@@ -144,6 +144,14 @@
   &__modal-btn:hover {
     fill: blue;
   }
+  &__modal-img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+
   &__text-modal {
     font-weight: 500;
     font-size: 18px;
@@ -153,13 +161,6 @@
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
-  }
-  &__modal-img {
-    display: block;
-    max-width: 90%;
-    height: auto;
-    margin: auto;
-    margin-top: 40px;
   }
 
   // модольне вікно
