@@ -24,7 +24,7 @@
       <div class="container">
         <div class="about__text">
           <p class="title__label">tradition and love</p>
-          <p class="title aboud__title">how it’s made?</p>
+          <h2 class="aboud__title title">how it’s made?</h2>
         </div>
         <div class="about__list-info">
           <ul class="about__list list-style">
@@ -32,17 +32,26 @@
               <picture>
                 <source
                   media="(min-width: 1200px )"
-                  srcset="./src/images/about/home-pic1a.png 1x, ./src/images/about/home-pic1a-2x.png x"
+                  srcset="
+                    ./src/images/about/home-pic1a.png    1x,
+                    ./src/images/about/home-pic1a-2x.png 2x
+                  "
                   type="image/png"
                 />
                 <source
                   media="(min-width: 768px )"
-                  srcset="./src/images/about/home-pic1b.png 1x, ./src/images/about/home-pic1b-2x.png x"
+                  srcset="
+                    ./src/images/about/home-pic1b.png    1x,
+                    ./src/images/about/home-pic1b-2x.png 2x
+                  "
                   type="image/png"
                 />
                 <source
                   media="(max-width: 767px )"
-                  srcset="./src/images/about/cow.png 1x, ./src/images/about/home-pic1c-2x.png x"
+                  srcset="
+                    ./src/images/about/cow.png           1x,
+                    ./src/images/about/home-pic1c-2x.png 2x
+                  "
                   type="image/png"
                 />
                 <img
@@ -52,7 +61,7 @@
                 />
               </picture>
             </li>
-            <li>
+            <li class="about_item-text">
               <p class="about__text-info">
                 Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
                 justo cursus, faucibus lorem eget, egestas eros. Maecenas
@@ -75,16 +84,22 @@
                 />
               </button>
             </li>
-            <li class="about__item-foto">
+            <li class="about__item-foto animate__zoomInDown">
               <picture>
                 <source
                   media="(min-width: 1200px )"
-                  srcset="./src/images/about/milk2.png 1x, ./src/images/about/milk2x.png x"
+                  srcset="
+                    ./src/images/about/milk2.png  1x,
+                    ./src/images/about/milk2x.png 2x
+                  "
                   type="image/png"
                 />
                 <source
                   media="(max-width: 767px )"
-                  srcset="./src/images/about/milk.png 1x, ./src/images/about/milk1x.png x"
+                  srcset="
+                    ./src/images/about/milk.png   1x,
+                    ./src/images/about/milk1x.png 2x
+                  "
                   type="image/png"
                 />
                 <img src="./src/images/about/milk.png" alt="milk" />
