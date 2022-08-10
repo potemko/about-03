@@ -137,9 +137,10 @@
   -webkit-animation-duration: 2000ms;
           animation-duration: 2000ms;
   z-index: 0;
+  display: inline-block;
   -webkit-animation: animate__zoomInDown;
           animation: animate__zoomInDown;
-  display: inline-block;
+  animation-duration: 2000ms;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .about__item-foto {
@@ -151,6 +152,10 @@
     position: absolute;
     bottom: 0px;
     z-index: -1;
+    -webkit-animation: animate__zoomInDown;
+            animation: animate__zoomInDown;
+    -webkit-animation-duration: 2000ms;
+            animation-duration: 2000ms;
   }
 }
 .about__button {
@@ -187,6 +192,12 @@
 .about__button-img {
   margin-left: 13px;
 }
+.about__logo {
+  -webkit-animation: animate__zoomInDown;
+          animation: animate__zoomInDown;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+}
 @media screen and (min-width: 1200px) {
   .about__logo {
     margin-top: -130px;
@@ -221,6 +232,10 @@
   height: auto;
   margin: auto;
   margin-top: 40px;
+  -webkit-animation: animate__zoomInDown;
+          animation: animate__zoomInDown;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
 }
 .about__text-modal {
   font-weight: 500;
@@ -292,6 +307,13 @@
 
 .about__text > .title {
   margin-top: 0px;
+}
+
+.animate__zoomInDown {
+  -webkit-animation: animate__zoomInDown;
+          animation: animate__zoomInDown;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
 }
 
 body {

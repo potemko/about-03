@@ -86,8 +86,10 @@
     bottom: 170px;
     animation-duration: 2000ms;
     z-index: 0;
-    animation: animate__zoomInDown;
+
     display: inline-block;
+    animation: animate__zoomInDown;
+    animation-duration: 2000ms;
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       display: none;
@@ -97,6 +99,8 @@
       position: absolute;
       bottom: 0px;
       z-index: -1;
+      animation: animate__zoomInDown;
+      animation-duration: 2000ms;
     }
   }
   &__button {
@@ -129,6 +133,8 @@
     margin-left: 13px;
   }
   &__logo {
+    animation: animate__zoomInDown;
+    animation-duration: 2000ms;
     @media screen and (min-width: 1200px) {
       margin-top: -130px;
     }
@@ -156,6 +162,8 @@
     height: auto;
     margin: auto;
     margin-top: 40px;
+    animation: animate__zoomInDown;
+    animation-duration: 2000ms;
   }
 
   &__text-modal {
@@ -224,4 +232,8 @@
 }
 .about__text > .title {
   margin-top: 0px;
+}
+.animate__zoomInDown {
+  animation: animate__zoomInDown;
+  animation-duration: 2000ms;
 }

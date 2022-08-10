@@ -28,7 +28,7 @@
         </div>
         <div class="about__list-info">
           <ul class="about__list list-style">
-            <li class="about__logo">
+            <li class="about__logo animate__zoomInDown;">
               <picture>
                 <source
                   media="(min-width: 1200px )"
@@ -85,25 +85,27 @@
               </button>
             </li>
             <li class="about__item-foto animate__zoomInDown">
-              <picture>
-                <source
-                  media="(min-width: 1200px )"
-                  srcset="
-                    ./src/images/about/milk2.png  1x,
-                    ./src/images/about/milk2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width: 767px )"
-                  srcset="
-                    ./src/images/about/milk.png   1x,
-                    ./src/images/about/milk1x.png 2x
-                  "
-                  type="image/png"
-                />
-                <img src="./src/images/about/milk.png" alt="milk" />
-              </picture>
+              <div class="">
+                <picture>
+                  <source
+                    media="(min-width: 1200px )"
+                    srcset="
+                      ./src/images/about/milk2.png  1x,
+                      ./src/images/about/milk2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width: 767px )"
+                    srcset="
+                      ./src/images/about/milk.png   1x,
+                      ./src/images/about/milk1x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <img src="./src/images/about/milk.png" alt="milk" />
+                </picture>
+              </div>
             </li>
           </ul>
         </div>
@@ -123,7 +125,7 @@
           is today. Our story starts in ancient China…
         </p>
         <img
-          class="about__modal-img"
+          class="about__modal-img animate__zoomInDown"
           src="./src/images/about/inarticle-image-icecream5.jpg"
           alt="ріжок морозива"
         />
